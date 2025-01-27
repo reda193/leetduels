@@ -8,7 +8,7 @@ const Admin = async () => {
         return (
         <div>
             <Nav />
-            <h2>Admin page - welcome back {session?.user.username}</h2>
+            <h2>Admin pddage - welcome back {session?.user.username}</h2>
         </div>
         )
     }
