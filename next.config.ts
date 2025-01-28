@@ -1,11 +1,11 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   pageExtensions: [
-    "page.tsx", // Your custom extension
-    "page.ts",
-    "ts" // Required for `not-found.ts`
-],
+    'page.tsx',
+    'page.ts',
+    'tsx',
+    'ts'
+  ]
 };
 
-export default nextConfig;
+module.exports = nextConfig;
