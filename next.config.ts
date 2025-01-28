@@ -5,7 +5,11 @@ const nextConfig = {
     'page.ts',
     'tsx',
     'ts'
-  ]
+  ],
+  // Add this to help debug build issues
+  typescript: {
+    ignoreBuildErrors: false,
+  }
 };
 
 module.exports = nextConfig;
