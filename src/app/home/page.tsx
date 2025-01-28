@@ -9,7 +9,7 @@ export default async function HomePage() {
     return (
         <div>
             Home Page
-            <Link href="/admin">Open my admin</Link>
+            <Link href="/admin">Opddden my admin</Link>
 
             <h2>Client session</h2>
             <User />
