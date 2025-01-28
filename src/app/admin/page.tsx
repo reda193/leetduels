@@ -1,5 +1,4 @@
-'use client'
-
+'use server';
 import { authOptions } from "@/lib/auth"
 import { getServerSession } from "next-auth"
 import Nav from "@/components/ui/Navbar";
