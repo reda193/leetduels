@@ -4,6 +4,7 @@ import User from "@/components/ui/User"
 import { authOptions } from "@/lib/auth";
 import { getServerSession } from "next-auth"
 import Link from "next/link"
+export const dynamic = 'force-dynamic';
 
 export default async function HomePage() {
     const session = await getServerSession(authOptions);
