@@ -1,4 +1,6 @@
 
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
 'use server';
 import User from "@/components/ui/User"
 import { authOptions } from "@/lib/auth";
