@@ -1,16 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // TypeScript configuration
+  // Add this to help debug build issues
   typescript: {
-    ignoreBuildErrors: false
-  },
-  // Page extensions at root level
-  pageExtensions: ['page.tsx', 'page.ts', 'ts'],
-  // Add output configuration to prevent static generation issues
-  output: 'standalone',
-  // Add experimental features to force dynamic rendering
-  experimental: {
-    serverActions: true
+    ignoreBuildErrors: false,
+    pageExtensions: [
+      "page.tsx",
+      "page.ts",
+      "ts"
+  
+  ]
   }
 };
 
