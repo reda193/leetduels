@@ -80,7 +80,7 @@ export default function RegisterPage() {
                 }
                 console.log('Form submitted:', formData);
             } catch (error) {
-                console.log(error)
+                console.log(error);
                 setErrors({ submit: 'Registration failed. Please try again.' });
             }
         }
@@ -157,7 +157,7 @@ export default function RegisterPage() {
                         
                         <div>
                             <label htmlFor="password" className="block text-sm font-medium text-gray-700">
-                                Password
+                                PasswordChangewdChANGWD
                             </label>
                             <input
                                 id="password"
