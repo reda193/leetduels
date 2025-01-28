@@ -1,6 +1,8 @@
+'use server';
 import { authOptions } from "@/lib/auth"
 import { getServerSession } from "next-auth"
 import Nav from "@/components/ui/Navbar";
+
 const Admin = async () => {
     const session = await getServerSession(authOptions);
     
@@ -8,14 +10,14 @@ const Admin = async () => {
         return (
         <div>
             <Nav />
-            <h2>Admin page - welcome back {session?.user.username}</h2>
+            <h2>Admin pddassge - welcome back {session?.user.username}</h2>
         </div>
         )
     }
     return (
         <div>
             <Nav />
-        <h2>Please login to dasdasdassee this login page</h2>
+        <h2>Please login to view this login page</h2>
         </div>
     )
 }
