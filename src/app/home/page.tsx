@@ -1,4 +1,5 @@
 
+'use server';
 import User from "@/components/ui/User"
 import { authOptions } from "@/lib/auth";
 import { getServerSession } from "next-auth"
