@@ -8,7 +8,7 @@ export default async function HomePage() {
     const session = await getServerSession(authOptions);
     return (
         <div>
-            Home Page
+            Home Pagee
             <Link href="/admin">Opddden my adddmin</Link>
 
             <h2>Client session</h2>
